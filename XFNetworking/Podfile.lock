@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/x5forever/AFNetworking.git`, tag `3.1.1`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/x5forever/AFNetworking.git
+    :tag: 3.1.1
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :git: https://github.com/x5forever/AFNetworking.git
+    :tag: 3.1.1
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+
+PODFILE CHECKSUM: 2c7f730168269d12e7115be4a7802efe281e9a62
+
+COCOAPODS: 1.4.0.beta.2

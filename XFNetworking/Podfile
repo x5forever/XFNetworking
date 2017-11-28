@@ -1,0 +1,8 @@
+platform :ios,'7.0'
+
+target 'XFNetworking' do
+    
+    # AFNetworking 要先用 x5 github 上的 tag => '3.1.1'，否则会有bug.
+    pod 'AFNetworking', :git =>'https://github.com/x5forever/AFNetworking.git', :tag => '3.1.1'
+    
+end
