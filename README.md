@@ -2,7 +2,7 @@
 基于 AFNetWorking 的二次封装
 
 
-##Note
+## Note
 * AFNetworking 要引用 x5 github 上的 tag => '3.1.1'，否则会有bug.
 * AFNetworking 要引用 x5 github 上的 tag => '3.1.1'，否则会有bug.
 * AFNetworking 要引用 x5 github 上的 tag => '3.1.1'，否则会有bug.
