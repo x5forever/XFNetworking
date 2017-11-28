@@ -6,7 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFSecurityPolicy.h"
+
+@class AFSecurityPolicy;
 
 @interface XFHTTPManagerConfig : NSObject
 

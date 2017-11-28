@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "TestRequest.h"
 
 @interface ViewController ()
 
@@ -15,14 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [[TestRequest new] startWithCompletion:^(id  _Nullable result, XFRequestState state, NSError * _Nullable error) {
+        NSLog(@"error >> %@ ",error);
+    }];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

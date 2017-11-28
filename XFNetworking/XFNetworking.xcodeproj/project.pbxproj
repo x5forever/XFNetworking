@@ -16,6 +16,7 @@
 		549FB1B01FCD3A2100A1E71D /* XFBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 549FB1AF1FCD3A2100A1E71D /* XFBaseRequest.m */; };
 		549FB1B31FCD3AE600A1E71D /* XFHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 549FB1B21FCD3AE600A1E71D /* XFHTTPManager.m */; };
 		549FB1B61FCD3B3D00A1E71D /* XFHTTPManagerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 549FB1B51FCD3B3D00A1E71D /* XFHTTPManagerConfig.m */; };
+		549FB1B91FCD4CC400A1E71D /* TestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 549FB1B81FCD4CC400A1E71D /* TestRequest.m */; };
 		994039A4374BF55AA517AF59 /* libPods-XFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A420CAB50D7ED5E452585 /* libPods-XFNetworking.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		549FB1B21FCD3AE600A1E71D /* XFHTTPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFHTTPManager.m; sourceTree = "<group>"; };
 		549FB1B41FCD3B3D00A1E71D /* XFHTTPManagerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFHTTPManagerConfig.h; sourceTree = "<group>"; };
 		549FB1B51FCD3B3D00A1E71D /* XFHTTPManagerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFHTTPManagerConfig.m; sourceTree = "<group>"; };
+		549FB1B71FCD4CC400A1E71D /* TestRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRequest.h; sourceTree = "<group>"; };
+		549FB1B81FCD4CC400A1E71D /* TestRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRequest.m; sourceTree = "<group>"; };
 		B0AEDF494224E5ADF5AC2E77 /* Pods-XFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XFNetworking/Pods-XFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +91,8 @@
 				549FB1981FCD36F100A1E71D /* AppDelegate.m */,
 				549FB19A1FCD36F100A1E71D /* ViewController.h */,
 				549FB19B1FCD36F100A1E71D /* ViewController.m */,
+				549FB1B71FCD4CC400A1E71D /* TestRequest.h */,
+				549FB1B81FCD4CC400A1E71D /* TestRequest.m */,
 				549FB19D1FCD36F100A1E71D /* Main.storyboard */,
 				549FB1A01FCD36F100A1E71D /* Assets.xcassets */,
 				549FB1A21FCD36F100A1E71D /* LaunchScreen.storyboard */,
@@ -247,6 +252,7 @@
 				549FB1B31FCD3AE600A1E71D /* XFHTTPManager.m in Sources */,
 				549FB19C1FCD36F100A1E71D /* ViewController.m in Sources */,
 				549FB1A71FCD36F100A1E71D /* main.m in Sources */,
+				549FB1B91FCD4CC400A1E71D /* TestRequest.m in Sources */,
 				549FB1991FCD36F100A1E71D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

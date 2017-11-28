@@ -6,6 +6,7 @@
 //
 
 #import "XFHTTPManagerConfig.h"
+#import "AFSecurityPolicy.h"
 
 @implementation XFHTTPManagerConfig
 
